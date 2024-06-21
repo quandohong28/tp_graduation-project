@@ -11,6 +11,8 @@
 
 ### Mô tả
 
+<p>FPT - DATN là Đồ án tốt nghiệp trường Cao đẳng FPT Polytechnic. Đồ án xây dựng trang thương mại điện tử và cung cấp cho người bán hàng trang quản lý chuyên nghiệp. Trang web được tích hợp nhiều công nghệ mới và các tính năng giúp người bán hàng dễ dàng quản lý các mặt hàng, người dùng, giúp thu được lợi nhuận tối đa</p>
+
 
 ### Danh sách thành viên
 
