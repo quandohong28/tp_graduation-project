@@ -77,5 +77,7 @@
 
 - Tạo dữ liệu fake: `php artisan db:seed`
 
-- Chạy localhost: `php artisan serve`
+- Chạy localhost: `php artisan serve && npm run dev`
+
+- Build dự án: `npm run build`
 
