@@ -71,7 +71,11 @@
 
 - Chạy câu lệnh `php artisan key:generate` để tạo key cho dự án
 
+- Cài đặt các thư viện php và javascript: `composer i && npm i`
+
 - Migrate database: `php artisan migrate`
 
 - Tạo dữ liệu fake: `php artisan db:seed`
+
+- Chạy localhost: `php artisan serve`
 
