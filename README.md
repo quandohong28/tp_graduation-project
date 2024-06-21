@@ -9,6 +9,9 @@
 
 ## FPT - Đồ án tốt nghiệp
 
+### Mô tả
+
+
 ### Danh sách thành viên
 
 <table border="1">
@@ -66,18 +69,37 @@
     </tbody>
 </table>
 
+### Yêu cầu
+- php >= v8.2
+- composer
+- node >= v20.13.1
+- npm >= v10.5.2
+- mysql
+- apache2
+
+### Thư viện sử dụng
+
+- Vite
+- Livewire
+- Tailwindcss
+- Socialite
+- Scout
+- Reverb: to make realtime chat
+
 ## Khởi chạy dự án
 
+- Bước 1: Chạy câu lệnh `php artisan key:generate` để tạo key cho dự án
 
-- Chạy câu lệnh `php artisan key:generate` để tạo key cho dự án
+- Bước 2: Cài đặt các thư viện php và javascript: `composer i && npm i` hoặc `composer install && npm install`
 
-- Cài đặt các thư viện php và javascript: `composer i && npm i`
+- Bước 3: Thiết lập cơ sở dữ liệu
+    + Tạo database, đặt tên là fpt_datn
+    + Copy file .env.example -> đổi tên thành .env
+    + Đặt giá trị cho DB_DATABASE=fpt_datn
+    + Migrate database: `php artisan migrate`
+    + Tạo dữ liệu fake: `php artisan db:seed`
 
-- Migrate database: `php artisan migrate`
-
-- Tạo dữ liệu fake: `php artisan db:seed`
-
-- Chạy localhost: `php artisan serve && npm run dev`
+- Chạy dự án dưới localhost: `php artisan serve && npm run dev`
 
 - Build dự án: `npm run build`
 
